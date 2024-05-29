@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.gold-text {
+    color: gold;
+}
+
+h1 {
+    margin: 52px 115px;
+
+}
+
+p {
+    margin: -30px 115px;
+
+}
+
+#generate-btn {
+    width: 190px;
+    height: 42px;
+    border-radius: 6px;
+
+
+    color: black;
+    background: gold;
+
+    margin-left: 112px;
+    margin-top: 50px;
+}
+
+#copy-btn {
+    width: 80px;
+    height: 30px;
+    margin-left: 112px;
+    margin-top: 12px;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+
+    background: white;
+    color: black;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+#password-length {
+    width: 80px;
+    height: 30px;
+    margin-left: 112px;
+    margin-top: 10px;
+    border-radius: 6px;
+    letter-spacing: 2px;
+
+    background: lightcoral;
+    color: white;
+    text-align: center;
+}
+
+.display-container {
+    width: 446px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-top: 1px solid gray;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    flex-wrap: wrap;
+}
+
+.display-1,
+.display-2 {
+    height: 39px;
+    width: 211px;
+    border-radius: 6px;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+
+    background: #273549;
+    color: #55F991;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
